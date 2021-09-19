@@ -27,8 +27,3 @@ private
       log.gets                        # ignore partial line
       log.read                        # and return rest
     end
-  end
-end
-
-server = LogServer.new
-server.start.join
